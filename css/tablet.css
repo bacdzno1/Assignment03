@@ -1,0 +1,75 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  .avatar {
+    display: none;
+  }
+
+  #about .container {
+    height: 340px;
+    margin: 50px;
+  }
+
+  #personal-info {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+
+  #about h1 {
+    font-size: 30px;
+  }
+
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  #job-info .container .job-detail {
+    margin-top: 0 !important;
+  }
+
+  .job-title {
+    gap: 0px;
+    justify-content: space-between;
+  }
+
+  .job-title,
+  .job-desc {
+    margin-bottom: 16px;
+  }
+
+  #job-info h1 {
+    font-size: 30px;
+  }
+
+  .hobby-detail {
+    padding-right: 14px;
+  }
+
+  .cert-detail {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cert-desc h2 {
+    padding-top: 0;
+    margin-bottom: 4px;
+  }
+
+  #certificate img {
+    width: 95%;
+  }
+
+  #project .container {
+    gap: 12px;
+  }
+
+  .project-title {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .project-title > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

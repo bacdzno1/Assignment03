@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .avatar {
+    display: none;
+  }
+
+  #nav-bar .container {
+    display: grid;
+    justify-content: start;
+    width: 100%;
+  }
+
+  #nav-bar a:link,
+  #nav-bar a:visited {
+    justify-self: start;
+    border: none;
+  }
+
+  #about .container {
+    height: auto;
+  }
+
+  #target {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #personal-info {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  .cert-detail:first-of-type {
+    border-right: none;
+  }
+
+  .cert-detail {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  #certificate span {
+    display: none;
+  }
+
+  .border-none {
+    border-bottom: none;
+  }
+
+  .project-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .project-title > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
