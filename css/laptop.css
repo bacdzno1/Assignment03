@@ -104,7 +104,7 @@ i {
 #personal-info {
   width: 100%;
   align-self: stretch;
-  padding: 48px 40px 0 90px;
+  padding: 48px 40px 10px 90px;
 }
 
 .section-title,
